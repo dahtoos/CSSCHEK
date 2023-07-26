@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #top {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 20px;
+        margin-bottom: 100px;
+      }
+      #about {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+      }
+      #about a {
+        text-decoration: none;
+        color: #ababb3;
+      }
+      #logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      #text {
+        color: #00c3a5;
+      }
+      #writeup {
+        display: flex;
+        justify-content: space-around;
+        gap: 60px;
+        margin:0 250px;
+        font-size: large;
+        color: #747474;
+      }
+   
+      #box0 {
+        flex-basis: 33%;
+        background-color: #00ccb1;
+        border-radius: 10px;
+        color: #e4faf7;
+      }
+      #box1 {
+        flex-basis: 29%;        
+        background-color: #3d83df;
+        border-radius: 10px;
+        color: #e4faf7;
+      }
+      #box2 {
+        flex-basis: 33%;
+        background-color: #1b2734;
+        border-radius: 10px;
+        color: #e4faf7;
+      }
+      #boxes-all {
+        display: flex;
+        justify-content:space-between;
+        flex-wrap: wrap;
+        width: 75vw;
+        margin: 0 auto;
+        margin-bottom: 40px;
+      }
+      #downpart {
+        display: flex;
+        width: 60vw;
+        margin:0 auto;
+        justify-content: space-between;
+      }
+      #allogo{
+        display: grid;
+        grid-template-columns: 100px 100px 100px ;
+        grid-gap: 1rem;
+        grid-template-rows: 50px 50px 50px 50px
+      }
+      #we{
+        font-size: x-large;
+        flex-basis: 22%;
+      }
+      .sub-box {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        flex-basis: 48%;
+        color: #84B39B;
+      }
+      .box{
+        flex-basis: 100%;
+        background-color:#FFFFFF;
+        border-radius: 5px;
+        height:50vh;
+        justify-content:center;
+      }
+      #boxes{
+        display: flex;
+        flex-basis: 40%;
+        justify-content:space-between ;
+      }
+      #mbox{
+        margin-top: 30px;
+      }
+      #sbox{
+        margin-bottom: 30px;
+      }
+      #cropped{
+        display: grid;
+        flex-basis: 40%;
+      }
+      .box-content{
+        width: 80%;
+        margin: 30px auto;
+      }
+      .middlepage{
+        display: flex;
+        background-color: #D0FAF4;
+        padding-top: 50px;
+        gap: 60px;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="top">
+      <img src="res/logo.png" alt="" />
+      <div id="about">
+        <a href="About us">About us</a>
+        <a href="Career">Career</a>
+        <a href="Department">Department</a>
+      </div>
+    </div>
+    <!--the head of the website-->
+
+    <nav id="logo">
+      <img src="res/logo1.png" alt="" width="50px" height="50px" />
+      <h1 id="text">Making the healthcare experience more human</h1>
+    </nav>
+    <div id="writeup">
+      <p>
+        We want patients to find the perfect doctor and book an appointment in
+        the most easy way. The patient journey should be enjoyable, and that's
+        why we are always next to them: to help them find the best possible
+        care. Anytime, anywhere.
+      </p>
+      <p>
+          We also help doctors to better manage their practice and build their
+          online reputation. With our integrated end-to-end solution, doctors
+          are able not only to improve their online presence, but also to devote
+          their time to what really matters: their patients.
+        </p>
+      </div>
+    <div id="boxes-all">
+      <div id="box0">
+        <div class="box-content">
+        <img src="res/Firsticon.svg" alt="" />
+        <h1>For Patients</h1>
+        <p>Find a doctor, book a visit and solve any health-related doubt</p>
+      </div>
+      </div>
+      <div id="box1">
+        <div class="box-content">
+        <img src="res/secondicon.svg" alt="" />
+        <h1>For Doctors</h1>
+        <p>Save time mananging visits and cut no-shows by half</p>
+      </div>
+      </div>
+      <div id="box2">
+        <div class="box-content">
+        <img src="res/third icon.svg" alt="" />
+        <h1>For Clinics</h1>
+        <p>Deliver an exceptional patient experience in your clinic</p>
+      </div>
+      </div>
+    </div>
+    <div id="downpart">
+      <div id="we">
+        <p>We are a global company with local culture</p>
+      </div>
+      <div id="allogo">
+        <img src="res/znanylekarz.png" alt="" width="75px" height="20px" />
+        <img src="res/Doctoralia.png" alt="" width="75px" height="20px" />
+        <img src="res/MioDottore.png" alt="" width="75px" height="20px" />
+        <img src="res/doktortakvimi.png" alt="" width="75px" height="20px" />
+        <img src="res/Znamylekar.jpg" alt="" width="75px" height="20px" />
+        <img src="res/logo-jameda.svg" alt="" width="75px" height="20px" />
+        <img src="res/tuotempo.svg" alt="" width="75px" height="20px" />
+        <img src="res/gipo.svg" alt="" width="75px" height="20px" />
+        <img src="res/clinicloud.svg" alt="" width="75px" height="20px" />
+        <img src="res/feegow.svg" alt="" width="75px" height="20px" />
+      </div>
+    </div>
+    <div class="middlepage">
+    <div id="cropped">
+      <h1 style="width: 300px;">The world's biggest healthcare platform</h1>
+      <p>
+        We work from 9 offices all over the world, bringing Docplanner Group to
+        life in 13 countries.
+      </p>
+      <img src="res/logocropped.png" alt="" />
+    </div>
+      <div id="boxes">
+        <div class="sub-box" id="mbox">
+        <div class="box" >
+          <img src="res/flag.png" alt="" />
+          <h1>Leader in 13 countries</h1>
+          <p>Poland, Brazil, Mexico, Spain, Italy,
+             Germany, Turkey, Colombia, Czech Republic, Portugal, Argentina, Peru and Chile</p>
+        </div>
+        <div class="box">
+          <img src="res/visits.png" alt="" />
+          <h1>15,000,000 appointments</h1>
+          <p>booked last month</p>
+        </div>
+      </div>
+          <div class="sub-box" id="sbox">
+        <div class="box">
+          <img src="res/patients.png" alt="" />
+          <h1>90,000,000 patients</h1>
+          <p>visit our websites each month</p>
+        </div>
+        <div class="box">
+          <img src="res/doctors.png" alt="" />
+          <h1>210,000 active doctors</h1>
+          <p>trust our solutions</p>
+        </div>
+      </div>
+    </div>
+   </div>
+
+  </body>
+</html>
